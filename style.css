@@ -332,3 +332,41 @@ body {
     .detail-container { grid-template-columns: 1fr; }
     .cart-sidebar { width: 100%; right: -100%; }
 }
+.modal-content{
+    background:#fff;
+    width:90%;
+    max-width:420px;
+    padding:25px;
+    border-radius:10px;
+    margin:50px auto;
+}
+
+#loginForm,
+#signupForm{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#loginForm input,
+#signupForm input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+#loginForm button,
+#signupForm button{
+    width:100%;
+    padding:12px;
+    background:#4f46e5;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.hidden{
+    display:none;
+                    }
