@@ -129,7 +129,7 @@ function removeFromCart(id) {
 
 function checkout() {
     if (cart.length === 0) return alert("Cart is empty!");
-    alert("Order placed successfully! Thank you for shopping at EasyBuy.");
+    alert("Order placed successfully! Thank you for shopping at BuyHurt.");
     cart = [];
     updateCartUI();
     toggleCart();
